@@ -77,9 +77,10 @@ class App extends Component {
     }
     let result = 0
     for (const i of number) {
+      if (i == '') { continue }
+      console.log(i)
       let a = result + Number(i)
       result = a
-      console.log(result)
     }
     this.setState({ result })
   }
@@ -98,7 +99,9 @@ class App extends Component {
 
     let result = 0
     for (const i of number) {
+      if (i == '') { continue }
       if (result == 0) { result = Number(i); continue }
+      console.log(i)
       let a = result - Number(i)
       result = a
     }
@@ -120,6 +123,7 @@ class App extends Component {
     }
     let result = 1
     for (const i of number) {
+      if (i == '') { continue }
       let a = result * Number(i)
       result = a
     }
@@ -141,6 +145,7 @@ class App extends Component {
     let result = 0
     for (const i of number) {
       if (result == 0) { result = Number(i); continue }
+      if (i == '') { continue }
       let a = result / parseInt(i)
       result = a
     }
