@@ -2,7 +2,7 @@
 
 Calculator is a simple android App build with Javascript and React Native Framework.
 
-Download the apk file here [here](https://drive.google.com/file/d/1R9ZljZvenW5eHYoi2UDG8zPc_5Wvhuts/view?usp=sharing)
+Download the apk file here [here](https://docs.google.com/uc?export=download&id=1s5z52uDM9uFPz-0-ju5RffSXJM1q1zdR)
 
 ## Installation
 
